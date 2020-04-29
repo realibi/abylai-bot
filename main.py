@@ -1,7 +1,7 @@
 import telebot
 import sqlite3
 
-conn = sqlite3.connect('patientsDB.db', check_same_thread=False)
+conn = sqlite3.connect('patients.db', check_same_thread=False)
 
 bot = telebot.TeleBot('1080190983:AAFVWiuunibNKicCwmpjH3CJEaxh_ZY3B78')
 
